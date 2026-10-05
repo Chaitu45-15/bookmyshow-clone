@@ -1,0 +1,31 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:#1f2533;
+}
+
+.logo{
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.search{
+    width:400px;
+    padding:12px;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    font-size:16px;
+}
+
+.signin-btn{
+    background:#f84464;
+    color:white;
+    border:none;
+    padding:10px 18px;
+    border-radius:5px;
+    cursor:pointer;
+}

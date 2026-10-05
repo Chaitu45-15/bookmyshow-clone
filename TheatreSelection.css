@@ -1,0 +1,48 @@
+.theatre-container{
+    width:80%;
+    margin:auto;
+    padding:40px;
+}
+
+.theatre-container h1{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.theatre-card{
+    background:#fff;
+    border-radius:10px;
+    padding:20px;
+    margin-bottom:25px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.theatre-card h2{
+    margin-bottom:10px;
+}
+
+.theatre-card p{
+    margin-bottom:15px;
+}
+
+.timings{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.time-btn{
+    background:#fff;
+    color:#1ea83c;
+    border:2px solid #1ea83c;
+    padding:10px 18px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.time-btn:hover{
+    background:#1ea83c;
+    color:white;
+}
